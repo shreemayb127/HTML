@@ -3,45 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Scroll Down Menu Example</title>
 </head>
 <body>
-    <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title></title>
-  </head>
+  <table border="1" width="100%">
+    <tr>
+        <td colspan="2" align="center">
+            <div>LOGO</div>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <table width="100%">
+                <tr>
+                    <td align="center">
+                        <table>
+                                <tr>
+                                    <td><a href="#home">Home</a></td>
+                                    <td><a href="#about">About</a></td>
+                                    <td><a href="#booking">Booking</a></td>
+                                    <td><a href="#menu">Menu</a></td>
+                                    <td><a href="#contact">Contact Us</a></td>
+                                </tr>
+                              </td>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" id="home">
+                <h1>About</h1>
+                <p>About Section Details</p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" id="about">
+                <h1>Booking</h1>
+                <table width="100%">
+                    <tr>
+                        <td>
+                            <form action="#">
+                                <table>
+                                    <tr>
+                                        <td><label for="name">Name</label></td>
+                                        <td><input type="text" id="name" name="name"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="contact">Contact No</label></td>
+                                        <td><input type="text" id="contact" name="contact"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="email">Email</label></td>
+                                        <td><input type="email" id="email" name="email"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="timing">Timing Slot</label></td>
+                                        <td><input type="text" id="timing" name="timing"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="people">No of Person</label></td>
+                                        <td><input type="number" id="people" name="people"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="preference">Food Preference</label></td>
+                                        <td><input type="text" id="preference" name="preference"></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2"><button type="submit">Submit</button></td>
+                                    </tr>
+                                </table>
+                            </form>
+                        </td>
+                        <td>
 
-  <body>
-    <table border="0" width="100%" height="100px">
-      <tr>
-        <th width="40%" bgcolor="#f5f4df"></th>
-        <th width="10%" bgcolor="#f5f4df">
-          <a href="" target="ContentFrame"
-            >HOME</a
-          >
-        </th>
-        <th width="20%" bgcolor="#f5f4df">
-          <a href="" target="contentFrame">PRACTICE</a>
-        </th>
-        <th width="10%" bgcolor="#f5f4df">
-          <a href="" target="contentFrame">TASK</a>
-        </th>
-
-        <th width="10%" bgcolor="#f5f4df">
-          <a href="" target="contentFrame">PROJECT</a>
-        </th>
-
-        <th width="10%" bgcolor="#f5f4df">
-          <a href="../projects/0.4contact.html" target="ContentFrame">CONTACT</a>
-        </th>
-      </tr>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" id="menu">
+              <h2>Menu</h2>
+                <table width="100%">
+                    <tr>
+                        <td>
+                            <ul>
+                                <li>Breakfast</li>
+                                <li>Lunch</li>
+                                <li>Dinner</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <h2>Details</h2>
+                        
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" id="contact">
+                   <h1><b>Contact details</b></h1>
+                  <p><b><i>Name=SHREEMAY Tripathi</i></b></p>
+                  <p><b><i>email ID=Shreemay.P.Tripathi@email.com</i></b></p>
+                  <p><b><i>Number=9535144417</i></b></p>
+            </td>
+        </tr>
     </table>
-    <hr />
-
-  </body>
-</html>
 </body>
 </html>
