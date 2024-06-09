@@ -17,19 +17,26 @@
                 <table width="100%" bgcolor="#e6f7ff">
                     <tr>
                         <td align="center">
-                            <a href="#home">Home</a> 
-                            <a href="#about">About</a>
-                            <a href="#booking">Booking</a> 
-                            <a href="#menu">Menu</a> 
-                            <a href="#contact">Contact Us</a>
+                     <button><a href="#home">Home</a></button>
+                     <button><a href="#about">About</a></button>
+                     <button><a href="#booking">Booking</a> </button>
+                     <button><a href="#menu">Menu</a> </button>
+                     <button><a href="#contactus">Contact Us</a></button>
+                     <button><a href="#Location">Location</a></button>
                         </td>
                     </tr>
                 </table>
             </td>
         </tr>
-        <tr>
-            <td colspan="2" id="about" bgcolor="#000000" style="color:White;">
-                <h1>Maharaja's Palace: A Royal Indian Culinary Experience</h1>
+        <tr id="home">
+            <td colspan="2" bgcolor="#000000" style="color:White;">
+                <h1>Home</h1>
+                <p>Welcome to Maharaja's Palace, where every meal is a journey through the regal traditions and rich flavors of India.</p>
+            </td>
+        </tr>
+        <tr id="about">
+            <td colspan="2" bgcolor="#000000" style="color:White;">
+                <h1>About</h1>
                 <p>Welcome to Maharaja's Palace, where every meal is a journey through the regal traditions and rich flavors of India. Nestled in the heart of the city, Maharaja's Palace offers an authentic dining experience that evokes the grandeur and opulence of India's royal heritage.</p>
                 <p><b>Ambiance:</b><br>Step into a world of elegance and luxury as you enter Maharaja's Palace. Our restaurant is adorned with intricate Indian décor, featuring ornate carvings, majestic drapes, and vibrant colors that transport you to the palatial courts of ancient Indian maharajas. The soothing melodies of traditional Indian music create a serene and enchanting atmosphere, perfect for a memorable dining experience.</p>
                 <p><b>Cuisine:</b><br>Our menu is a culinary homage to the diverse regions of India, offering a wide array of dishes that showcase the country's rich gastronomic heritage. From the fiery spices of the North to the subtle flavors of the South, each dish is crafted with the finest ingredients and traditional cooking techniques. Savor the succulent tandoori kebabs, aromatic biryanis, and creamy curries that have been perfected by our skilled chefs.</p>
@@ -37,16 +44,16 @@
                 <p><b>Beverages and Desserts:</b><br>Complement your meal with our exquisite selection of beverages, including traditional Indian lassis, masala chai, and an array of fine wines. End your culinary journey on a sweet note with our delectable desserts, such as Gulab Jamun, Rasmalai, and Mango Kulfi.</p>
                 <p><b>Hospitality:</b><br>At Maharaja's Palace, we pride ourselves on offering exceptional service that is as warm and welcoming as the Indian culture itself. Our attentive staff is dedicated to ensuring that your dining experience is nothing short of royal. Whether you are celebrating a special occasion or simply indulging in the flavors of India, Maharaja's Palace promises an unforgettable experience that will leave you feeling like royalty. Join us and immerse yourself in the splendor and richness of Indian cuisine at Maharaja's Palace.</p>
                 <marquee scrollamount="50">
-                <img src="../Image/mp5.jpg"width=400px>
-              <img src="../Image/mp2.jpg"width=400px>
-              <img src="../Image/mp3.jpg"width=400px>
-              <img src="../Image/mp4.jpg"width=400px>
-              <img src="../Image/mp.jpg"width=400px>
-            </marquee>
+                <img src="../Image/mp5.jpg" width="400px">
+                <img src="../Image/mp2.jpg" width="400px">
+                <img src="../Image/mp3.jpg" width="400px">
+                <img src="../Image/mp4.jpg" width="400px">
+                <img src="../Image/mp.jpg" width="400px">
+                </marquee>
             </td>
         </tr>
-        <tr>
-            <td colspan="2" id="booking" bgcolor="#ffa62e">
+        <tr id="booking">
+            <td colspan="2" bgcolor="#ffa62e">
                 <h1>Booking</h1>
                 <table width="100%">
                     <tr>
@@ -75,7 +82,20 @@
                                     </tr>
                                     <tr>
                                         <td><label for="preference">Food Preference</label></td>
-                                        <td><input type="text" id="preference" name="preference"></td>
+                                        <td>
+                                            <input type="radio" id="veg" name="rent_on" value="Veg">
+                                            <label for="veg">Veg</label>
+                                            <br>
+                                            <input type="radio" id="nonveg" name="rent_on" value="Non-Veg">
+                                            <label for="nonveg">Non-Veg</label>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <label for="special_request">Special Request:</label>
+                                        </td>
+                                        <td><textarea id="special_request" name="special_request" rows="6" cols="40"
+                                                    placeholder="Special Request"></textarea></td>
                                     </tr>
                                     <tr>
                                         <td colspan="2"><button type="submit">Submit</button></td>
@@ -88,85 +108,66 @@
                 </table>
             </td>
         </tr>
-        <tr>
-            <td colspan="2" id="menu" bgcolor="#000000" style="color:White;">
+        <tr id="menu">
+            <td colspan="2" bgcolor="#000000" style="color:White;">
                 <h2>Menu</h2>
                 <h1>Maharaja's Palace Menu</h1>
-                <h2>Starters:</h2>
-                <ul>
-                    <li><strong>Samosa Platter:</strong> Crispy pastries filled with spiced potatoes and peas, served with tamarind and mint chutneys.</li>
-                    <li><strong>Tandoori Prawns:</strong> Jumbo prawns marinated in yogurt and spices, grilled to perfection in the tandoor.</li>
-                    <li><strong>Paneer Tikka:</strong> Cubes of cottage cheese marinated in a blend of spices and grilled, served with mint chutney.</li>
-                    <li><strong>Chicken Seekh Kebabs:</strong> Minced chicken mixed with spices, skewered and grilled in the tandoor.</li>
-                </ul>
-                <h2>Main Course:</h2>
-                <h3>Vegetarian:</h3>
-                <ul>
-                    <li><strong>Paneer Butter Masala:</strong> Cottage cheese cubes in a rich and creamy tomato-based sauce.</li>
-                    <li><strong>Chana Masala:</strong> Chickpeas cooked in a flavorful onion and tomato gravy with spices.</li>
-                    <li><strong>Baingan Bharta:</strong> Smoked and mashed eggplant cooked with tomatoes, onions, and spices.</li>
-                    <li><strong>Aloo Gobi:</strong> Potatoes and cauliflower cooked with turmeric, cumin, and coriander.</li>
-                </ul>
-                <h3>Non-Vegetarian:</h3>
-                <ul>
-                    <li><strong>Butter Chicken:</strong> Tender chicken pieces cooked in a creamy tomato sauce with a blend of spices.</li>
-                    <li><strong>Lamb Rogan Josh:</strong> Succulent pieces of lamb cooked in a rich, aromatic curry with Kashmiri spices.</li>
-                    <li><strong>Goan Fish Curry:</strong> Fish fillets simmered in a coconut milk-based curry with Goan spices.</li>
-                    <li><strong>Mutton Biryani:</strong> Fragrant basmati rice layered with tender pieces of mutton, cooked with saffron and spices.</li>
-                </ul>
-                <h2>Tandoori Specialties:</h2>
-                <ul>
-                    <li><strong>Tandoori Chicken:</strong> Half or full chicken marinated in yogurt and spices, grilled in the tandoor.</li>
-                    <li><strong>Tandoori Mixed Grill:</strong> An assortment of tandoori kebabs, including chicken, lamb, and seafood.</li>
-                    <li><strong>Tandoori Roti/Naan:</strong> Traditional Indian bread baked in the tandoor, available in plain, butter, garlic, and cheese variations.</li>
-                </ul>
-                <h2>Rice and Breads:</h2>
-                <ul>
-                    <li><strong>Steamed Basmati Rice:</strong> Fluffy, fragrant long-grain rice.</li>
-                    <li><strong>Jeera Rice:</strong> Basmati rice cooked with cumin seeds and aromatic spices.</li>
-                    <li><strong>Garlic Naan:</strong> Tandoor-baked bread topped with garlic and butter.</li>
-                    <li><strong>Peshawari Naan:</strong> Sweet naan stuffed with a mixture of nuts and dried fruits.</li>
-                </ul>
-                <h2>Sides:</h2>
-                <ul>
-                    <li><strong>Raita:</strong> Cooling yogurt mixed with cucumber, mint, and spices.</li>
-                    <li><strong>Papadum:</strong> Crisp lentil wafers served with assorted chutneys.</li>
-                    <li><strong>Indian Pickles:</strong> Spicy and tangy pickles made from seasonal fruits and vegetables.</li>
-                </ul>
-                <h2>Desserts:</h2>
-                <ul>
-                    <li><strong>Gulab Jamun:</strong> Deep-fried milk dumplings soaked in a sweet syrup.</li>
-                    <li><strong>Rasmalai:</strong> Soft paneer patties soaked in sweetened, flavored milk.</li>
-                    <li><strong>Mango Kulfi:</strong> Traditional Indian ice cream made with mango pulp and garnished with pistachios.</li>
-                </ul>
-                <h2>Beverages:</h2>
-                <ul>
-                    <li><strong>Masala Chai:</strong> Spiced Indian tea brewed with milk and aromatic spices.</li>
-                    <li><strong>Mango Lassi:</strong> A refreshing yogurt-based drink blended with mango pulp.</li>
-                    <li><strong>Rose Sharbat:</strong> A sweet and fragrant rose-flavored drink.</li>
-                    <li><strong>Selection of Fine Wines and Spirits:</strong></li>
-                </ul>
-                <h2>Chef's Specials:</h2>
-                <ul>
-                    <li><strong>Royal Thali:</strong> A grand platter featuring a selection of the day's specialties, including appetizers, main courses, rice, bread, and dessert.</li>
-                    <li><strong>Nawabi Biryani:</strong> A royal biryani made with your choice of meat or vegetables, cooked with fragrant spices and saffron.</li>
-                </ul>
-                <h2>Kids' Menu:</h2>
-                <ul>
-                    <li><strong>Mini Chicken Tikka:</strong> Tender chicken pieces marinated and grilled, served with fries.</li>
-                    <li><strong>Cheese Naan Pizza:</strong> Naan bread topped with cheese and mild tomato sauce.</li>
-                    <li><strong>Sweet Lassi:</strong> A sweetened yogurt drink, perfect for kids.</li>
-                </ul>
+                <table border="0" width="100%" height="600px">
+                    <tr>
+                        <th width="40%" height="100%">
+                            <h1 style="text-align: center">MENU</h1>
+                            <table border="0" width="100%" height="400px">
+                                <tr>
+                                    <td><a href="../projects/1.2starters.html" target="menuFrame"><h1>Starters.</h1></a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="../projects/1.3main coures.html" target="menuFrame"><h1>Main course.</h1></a></td></tr>
+                                <tr>
+                                    <td><a href="../projects/1.8Chef's Specials.html" target="menuFrame"><h1>Chef's speciality.</h1></a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="../projects/1.4Tandoori Specialties.html" target="menuFrame"><h1>Tandoori specialty.</h1></a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="../projects/1.5Rice and Breads.html" target="menuFrame"><h1>rice and bread.</h1></a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="../projects/1.6Sides.html" target="menuFrame"><h1>side dishes.</h1></a></td>
+                                </tr>
+                               <tr>
+                                    <td><a href="../projects/1.9Beverages.html" target="menuFrame"><h1>Beverages.</h1></a></td>
+                                </tr> 
+                                <tr>
+                                    <td><a href="../projects/1.7Desserts.html" target="menuFrame"><h1>dessert.</h1></a></td>
+                                </tr>
+                            </table>
+                        </th>
+                        <th width="60%" height="100%"><iframe name="menuFrame" width="100%" height="100%"></iframe></th>
+                    </tr>
+                </table>
                 <h2>Reservations and Catering:</h2>
-                <p>For special events and catering services, please contact our reservation desk. We look forward to making your dining experience at Maharaja's Palace truly royal.</p>
+                <p>For special events and catering services, please contact our reservation desk. We look forward to serving you and making your dining experience truly unforgettable.</p>
             </td>
         </tr>
-        <tr>
-            <td colspan="2" id="contact" bgcolor="#ffa62e">
-                <h1><b>Contact details</b></h1>
-                <p><b><i>Name: SHREEMAY Tripathi</i></b></p>
-                <p><b><i>Email ID: Shreemay.P.Tripathi@email.com</i></b></p>
-                <p><b><i>Number: 9535144417</i></b></p>
+        <tr id="contactus">
+            <td colspan="2" bgcolor="#ffa62e">
+                <table width="100%">
+                    <tr>
+                        <td width="40%">
+                            <h2>Contact Us</h2>
+                            <p>Email: info@maharajaspalace.com</p>
+                            <p>Phone: +123 456 7890</p>
+                            <p>Address: 123 Royal Street, City, Country</p>
+                        </td>
+                       
+                    </tr>
+                </table>
+            </td>
+            <tr id="Location">
+            <td width="60%">
+                <h2 style="color:white;">Location</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243648.1257559774!2d72.74109732672867!3d19.08219783934911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63fb2f74329%3A0x2f5f7f36e1c50f1d!2sMumbai%2C%20Maharashtra%2C%20India!5e0!3m2!1sen!2sus!4v1687624233145!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
             </td>
         </tr>
     </table>
